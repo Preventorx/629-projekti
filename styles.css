@@ -5,6 +5,7 @@
   background-size:cover;
   position:relative;
 }
+
 /* text css above hero image*/
 .hero_title {
   font-size: 4.5rem;
@@ -20,12 +21,16 @@
   transform: translate(-50%, -50%);
   color: rgb(7, 2, 77);
 }
+
 /* about section image css */
 .imageAboutPage {
   width: 100%;
 }
 
-
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
 
 
 
